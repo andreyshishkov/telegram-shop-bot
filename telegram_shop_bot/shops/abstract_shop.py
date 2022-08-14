@@ -37,11 +37,5 @@ class Shop(ABC):
     def _get_reference(self):
         pass
 
-    @abstractmethod
-    def __set_html(self, item):
-        pass
 
-    @abstractmethod
-    def __find_items(self, item: str, num: int):
-        pass
 
